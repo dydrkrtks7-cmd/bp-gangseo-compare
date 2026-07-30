@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gangseo-tip-trend.hardcoreroom.com/sitemap.xml
-Sitemap: https://gangseo-tip-trend.hardcoreroom.com/sitemap-pages.xml
+Sitemap: https://gongdeok-massage-note.mapo-shirts-connect.xyz/sitemap.xml
+Sitemap: https://gongdeok-massage-note.mapo-shirts-connect.xyz/sitemap-pages.xml
