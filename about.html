@@ -1,279 +1,142 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
-    <title>강서 화곡 셔츠룸 비교 데이터 | 객관적 정보 분석</title>
-    <meta name="description" content="강서구 화곡동 일대 셔츠룸의 객관적 비교 데이터를 제공합니다. 투명한 가격 정책과 서비스 퀄리티에 대한 전문가 분석 정보를 확인하세요. 010-6279-0862">
-    <meta name="keywords" content="강서 화곡 셔츠룸 비교, 강서 셔츠룸 정보, 화곡동 유흥방 데이터, 010-6279-0862">
-    <link rel="canonical" href="https://gangseo-tip-trend.hardcoreroom.com/about.html">
-    <meta property="og:title" content="강서 화곡 셔츠룸 비교 | 객관적 정보 분석">
-    <meta property="og:description" content="강서 화곡 셔츠룸의 서비스 등급, 가격 체계, 환경에 대한 상세 비교 정보를 제공합니다.">
-    <meta property="og:url" content="https://gangseo-tip-trend.hardcoreroom.com/about.html">
-    <meta property="og:type" content="website">
-    <style>
-        :root {
-            --font-primary: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-            --color-bg: #0a0a0a;
-            --color-text: #f5f5f7;
-            --color-text-muted: #86868b;
-            --color-accent: #d4af37;
-            --color-border: rgba(255, 255, 255, 0.1);
-            --spacing-unit: 24px;
-            --border-radius: 12px;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: var(--font-primary);
-            background-color: var(--color-bg);
-            color: var(--color-text);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 0 var(--spacing-unit);
-        }
-
-        /* Navigation */
-        nav {
-            border-bottom: 1px solid var(--color-border);
-            padding: var(--spacing-unit) 0;
-            margin-bottom: calc(var(--spacing-unit) * 2);
-        }
-
-        nav .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav .logo {
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: var(--color-text);
-            text-decoration: none;
-            letter-spacing: -0.02em;
-        }
-
-        nav .contact-btn {
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            border: 1px solid var(--color-accent);
-            padding: 8px 16px;
-            border-radius: 20px;
-            transition: all 0.3s ease;
-        }
-
-        nav .contact-btn:hover {
-            background-color: var(--color-accent);
-            color: var(--color-bg);
-        }
-
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: calc(var(--spacing-unit) * 3) 0;
-            margin-bottom: calc(var(--spacing-unit) * 2);
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-unit);
-            letter-spacing: -0.03em;
-            background: linear-gradient(135deg, #fff 0%, #86868b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero p {
-            color: var(--color-text-muted);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* Review Cards / Info Cards */
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: calc(var(--spacing-unit) * 1.5);
-            margin-bottom: calc(var(--spacing-unit) * 3);
-        }
-
-        .review-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--color-border);
-            border-radius: var(--border-radius);
-            padding: calc(var(--spacing-unit) * 1.5);
-            transition: transform 0.3s ease, border-color 0.3s ease;
-        }
-
-        .review-card:hover {
-            border-color: var(--color-accent);
-            transform: translateY(-2px);
-        }
-
-        .review-card h2 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            color: var(--color-text);
-        }
-
-        .review-card .meta {
-            font-size: 0.85rem;
-            color: var(--color-accent);
-            margin-bottom: 16px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .review-card p {
-            color: var(--color-text-muted);
-            font-size: 0.95rem;
-            line-height: 1.7;
-        }
-
-        /* Content Section */
-        .content-section {
-            margin-bottom: calc(var(--spacing-unit) * 3);
-            border-top: 1px solid var(--color-border);
-            padding-top: calc(var(--spacing-unit) * 2);
-        }
-
-        .content-section h3 {
-            font-size: 1.5rem;
-            margin-bottom: var(--spacing-unit);
-            color: var(--color-text);
-        }
-
-        .content-section p {
-            margin-bottom: var(--spacing-unit);
-            color: var(--color-text-muted);
-        }
-
-        /* Footer */
-        .footer {
-            border-top: 1px solid var(--color-border);
-            padding: calc(var(--spacing-unit) * 2) 0;
-            text-align: center;
-            color: var(--color-text-muted);
-            font-size: 0.85rem;
-        }
-
-        .footer a {
-            color: var(--color-text-muted);
-            text-decoration: none;
-            margin: 0 8px;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            .container {
-                padding: 0 20px;
-            }
-            
-            .card-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>공덕 마사지 정보 | 공덕 마사지 추천 가이드</title>
+<meta name="description" content="공덕 마사지 선택 시 고려해야 할 조건과 지역 특성을 반영한 정보를 제공합니다. 업소 비교의 기준점과 상황별 접근법을 데이터 기반으로 정리했습니다.">
+<meta name="keywords" content="공덕 마사지, 공덕 정보, 마사지 조건, 지역 특성, 마사지 선택 가이드, 공덕역 마사지">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-clip-oxide">
+<link rel="canonical" href="https://gongdeok-massage-note.mapo-shirts-connect.xyz/about.html">
+<meta property="og:title" content="공덕 마사지 정보 — 조건별 선택을 위한 지역 기반 가이드">
+<meta property="og:description" content="공덕 지역 마사지 업소를 고를 때 어떤 조건을 먼저 확인해야 하는지, 포함과 제외의 기준을 데이터와 함께 안내합니다. 처음 방문하는 분도 용어 부담 없이 읽을 수 있습니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gongdeok-massage-note.mapo-shirts-connect.xyz/about.html">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="공덕 마사지 노트">
 </head>
 <body>
+<nav class="nav-container">
+  <div class="nav-brand">
+    <a href="/" class="nav-logo">공덕 마사지 노트</a>
+  </div>
+  <button class="hamburger-menu" aria-label="메뉴 열기">
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+    <span class="hamburger-bar"></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="/">홈</a></li>
+    <li><a href="/info" class="active">정보</a></li>
+    <li><a href="/compare">비교</a></li>
+    <li><a href="/faq">FAQ</a></li>
+    <li><a href="/contact">연락처</a></li>
+  </ul>
+</nav>
 
-    <nav>
-        <div class="container">
-            <a href="/" class="logo">GANGSEO INSIGHT</a>
-            <a href="tel:010-6279-0862" class="contact-btn">010-6279-0862</a>
-        </div>
-    </nav>
+<main class="container">
+  <header class="page-header">
+    <h1 class="page-title">공덕 마사지 정보</h1>
+    <p class="page-subtitle">지역 특성과 조건별 접근법을 중심으로 마사지 선택의 기준을 정리했습니다.</p>
+  </header>
 
-    <header class="hero">
-        <div class="container">
-            <h1>강서 화곡 셔츠룸 비교 데이터</h1>
-            <p>강서구 화곡동 일대 주요 업체의 서비스 퀄리티, 가격 투명성, 그리고 접근성을 데이터 기반으로 분석한 상세 정보입니다.</p>
-        </div>
-    </header>
+  <section class="content-section">
+    <h2 class="section-title">공덕 지역과 마사지 선택의 상관관계</h2>
+    <div class="grid grid-2">
+      <div class="clip-card">
+        <h3 class="clip-title">접근성과 밀집도</h3>
+        <p class="clip-text">공덕역은 5호선과 6호선, 경의중앙선, 공항철도가 교차하는 마포구의 교통 요충지입니다. 역 도보 5분 이내에 위치한 마사지 업소의 비율이 상대적으로 높으며, 오피스 상권과 주거 지역이 혼재되어 있어 방문 시간대에 따라 선택할 수 있는 폭이 달라집니다. 출퇴근 시간대에는 지하철역 인접 업소의 예약이 빠르게 마감되는 경향이 있습니다.</p>
+      </div>
+      <div class="clip-card">
+        <h3 class="clip-title">상권 특성과 업소 구성</h3>
+        <p class="clip-text">공덕 일대는 대형 병원과 금융 기관, 프랜차이즈 카페가 밀집한 상업 지구와 재래시장, 주택가가 공존합니다. 이에 따라 마사지 업소도 테라피 중심의 프리미엄급, 접근성 중심의 로드샵, 재활·건강 목적의 한의원 연계형까지 다양하게 분포합니다. 방문 목적에 맞는 업소를 고르기 위해서는 자신의 체류 시간과 동선을 먼저 확정하는 것이 유리합니다.</p>
+      </div>
+    </div>
+    <p>업소 선택의 첫 단계는 지역 내에서도 세부 구역을 나누는 것입니다. 공덕역 출구별로 업종 분포가 다르며, 예를 들어 4번 출구 방향은 프랜차이즈 마사지와 스파가, 7번 출구 쪽은 개인 운영 소규모 업소가 주를 이룹니다. 이런 미시적 차이를 인지하면 검색 시간을 단축하고 실제 방문 시 만족도를 높일 수 있습니다.</p>
+  </section>
 
-    <main class="container">
-        
-        <section class="card-grid">
-            <article class="review-card">
-                <div class="meta">Service Grade A</div>
-                <h2>프리미엄 라운지 분석</h2>
-                <p>화곡역 인근에 위치한 상위 10% 업체의 공통적인 특징을 분석합니다. 고급스러운 인테리어와 전문적인 매니지먼트 시스템이 돋보이는 곳들로, 비즈니스 미팅 및 특별한 접대가 필요한 경우 적합한 옵션입니다. 가격대는 다소 높으나 서비스의 완성도가 보장됩니다.</p>
-            </article>
+  <section class="content-section">
+    <h2 class="section-title">마사지 유형별 조건과 기준</h2>
+    <div class="grid grid-3">
+      <div class="clip-card">
+        <h3 class="clip-title">스웨디시 마사지</h3>
+        <p class="clip-text">전신 근육을 부드럽게 풀어주는 기법으로, 처음 마사지를 접하는 분이나 가벼운 피로 회복을 원할 때 적합합니다. 공덕 지역 스웨디시 업소는 대부분 60분~90분 코스를 기본으로 하며, 오일 사용 여부와 샤워 시설 유무가 체감 만족도에 영향을 줍니다. 예약 전에 시트 교체 주기와 관리사 자격증 보유 여부를 문의하는 것이 바람직합니다.</p>
+      </div>
+      <div class="clip-card">
+        <h3 class="clip-title">타이 마사지</h3>
+        <p class="clip-text">스트레칭과 압을 병행하는 방식으로, 관절 가동 범위 개선이나 자세 교정을 목적으로 하는 방문자에게 추천됩니다. 타이 마사지는 업체에 따라 강도 차이가 크므로, 내담자의 체력과 통증 역치를 고려해 옵션을 선택해야 합니다. 공덕 지역 타이 마사지 업소는 주말보다 평일 오전에 여유가 있는 경우가 많으며, 사전 예약 시 강도 조절 가능 여부를 확인하면 좋습니다.</p>
+      </div>
+      <div class="clip-card">
+        <h3 class="clip-title">아로마 테라피</h3>
+        <p class="clip-text">향유를 사용한 감각적 접근으로, 정서적 안정이나 불면증 완화 등 심리적 효과를 기대할 때 인기가 높습니다. 아로마 테라피는 사용 오일의 종류와 희석 비율에 따라 피부 반응이 다를 수 있으므로, 알레르기나 민감성 피부를 가진 경우 사전에 성분표를 요청하는 것이 안전합니다. 공덕 지역 아로마 전문 업소는 프라이빗 공간을 강조하는 곳이 많으며, 1인실 유무가 선택 기준이 될 수 있습니다.</p>
+      </div>
+    </div>
+    <p>마사지 유형을 결정했다면, 같은 유형 내에서도 세부 항목을 비교해야 합니다. 예를 들어 스웨디시의 경우 '노르딕'과 '클래식' 기법의 차이, 타이 마사지의 '오일 타이'와 '드라이 타이' 구분, 아로마에서의 '블렌딩' 방식 등이 만족도에 영향을 미칩니다. 공덕 지역 업소들의 메뉴판을 분석해 보면, 유형별로 강도 옵션을 3단계로 나누는 업소가 전체의 절반가량이며 1:1 문의를 통해 맞춤형 조정이 가능한 곳도 상당수입니다.</p>
+  </section>
 
-            <article class="review-card">
-                <div class="meta">Value & Cost</div>
-                <h2>가성비 및 가격 체계</h2>
-                <p>강서구 내 합리적인 가격대를 형성하고 있는 업체들의 평균 요금을 비교했습니다. 불필요한 부가비용이 없는 투명한 가격 정책을 지향하는 곳들을 선별하였으며, 학생이나 일반적인 모임에서 부담 없이 이용할 수 있는 최적의 밸런스를 제시합니다.</p>
-            </article>
+  <section class="content-section">
+    <h2 class="section-title">이용 전 확인해야 할 실질 기준</h2>
+    <div class="grid grid-2">
+      <div class="clip-card">
+        <h3 class="clip-title">예약 시스템과 대기 시간</h3>
+        <p class="clip-text">공덕 지역 마사지 업소의 예약 방식은 크게 온라인 실시간 예약, 전화 예약, 방문 접수 세 가지로 나뉩니다. 주말이나 공휴일에는 온라인 예약이 오전 10시 전후로 마감되는 곳이 많으며, 전화 예약 시에도 원하는 시간대를 확보하기 위해서는 최소 2~3일 전 연락이 필요합니다. 방문 접수만 가능한 업소의 경우 평일 낮 시간대를 노리는 것이 대기 시간을 줄이는 방법입니다.</p>
+      </div>
+      <div class="clip-card">
+        <h3 class="clip-title">가격 구성과 추가 비용</h3>
+        <p class="clip-text">기본 가격표에 표시된 금액 외에 샤워 시설 이용료, 오일 추가 비용, 발 관리나 두피 마사지 같은 애드온 옵션이 별도로 책정되는 경우가 있습니다. 최종 결제 금액을 예측하기 위해서는 홈페이지나 전화 문의로 '토탈 금액'을 확인하는 것이 좋습니다. 공덕 지역 업소의 60분 기준 가격대는 7만~15만 원 수준으로 편차가 크며, 가격이 낮은 업소일수록 옵션 제외 항목을 사전에 명확히 알려주는 경향이 있습니다.</p>
+      </div>
+    </div>
+    <p>가격 비교 시 주의할 점은 '시간 대비 단가'만 볼 것이 아니라, 포함된 서비스의 범위를 함께 고려해야 한다는 점입니다. 예를 들어 90분 10만 원 업소가 60분 7만 원 업소보다 오일과 1인실이 포함되어 있다면 오히려 경제적일 수 있습니다. 또한 첫 방문 할인이나 제휴 카드 할인이 적용되는 경우도 있으니, 결제 전에 프로모션 조건을 다시 한 번 확인하는 습관이 필요합니다.</p>
+  </section>
 
-            <article class="review-card">
-                <div class="meta">Location & Access</div>
-                <h2>접근성 및 주차 환경</h2>
-                <p>화곡동 사거리 및 주변 골목골목에 분포한 업체들의 주차 난이도와 대중교통 접근성을 평가했습니다. 전용 주차장이 구비된 곳과 인근 공영주차장 이용이 용이한 곳을 구분하여, 방문 전 교통 상황을 미리 파악하실 수 있도록 정보를 정리했습니다.</p>
-            </article>
-        </section>
+  <section class="content-section">
+    <h2 class="section-title">상황별 선택 접근법</h2>
+    <div class="grid grid-2">
+      <div class="clip-card">
+        <h3 class="clip-title">인원 구성에 따른 선택</h3>
+        <p class="clip-text">1인 방문 시에는 관리사와의 원활한 소통이 가능한 업소를, 2인 이상 방문 시에는 동시 예약이 가능한 더블룸이나 커플룸을 보유한 업소를 우선 고려하는 것이 좋습니다. 공덕 지역에서 2인 동시 진행이 가능한 업소는 전체의 30% 내외이며, 예약 시 반드시 '동시 진행' 조건을 명시해야 합니다. 단체 방문(3인 이상)의 경우 업소에 따라 시간대별 수용 인원이 다르므로, 전화 협의를 통해 일정을 조율하는 것이 안전합니다.</p>
+      </div>
+      <div class="clip-card">
+        <h3 class="clip-title">방문 목적과 시간대</h3>
+        <p class="clip-text">출장이나 여행 중 짧은 시간을 활용해야 한다면 역 도보 3분 이내의 업소 중 30~40분 단축 코스를 운영하는 곳이 유리합니다. 반면 충분한 휴식과 재충전이 목적이라면 90분 이상의 패키지를 제공하고 부대시설(족욕, 티타임 등)이 갖춰진 업소를 선택하는 것이 좋습니다. 시간대별로는 오전(10~12시)이 가장 여유롭고, 저녁 시간(18~21시)은 예약이 밀집되므로 원하는 시간을 확보하려면 2~3일 전 예약이 필요합니다.</p>
+      </div>
+    </div>
+    <p>또 하나 고려할 점은 시즌별 수요 변화입니다. 연말연시와 명절 연휴 전후에는 마사지 수요가 급증하므로 예약 경쟁이 치열해집니다. 이 시기에는 평소보다 1주일 일찍 예약을 잡는 것이 안정적이며, 업소 측에서 시즌 한정 메뉴를 운영하는 경우도 있으니 사전에 확인하는 것이 좋습니다.</p>
+  </section>
 
-        <section class="content-section">
-            <h3>강서 화곡 유흥 시장 동향 및 선택 가이드</h3>
-            <p>
-                강서구 화곡동은 서울 서남권의 중심지로서 다양한 유흥 시설이 밀집해 있는 지역입니다.しかし, 수많은 업체 중에서 개인의 니즈에 맞는 곳을 선택하는 것은 쉽지 않습니다. 본 페이지는 단순한 나열을 넘어, 실제 이용자의 입장에서 중요한 '서비스의 일관성'과 '가격의 투명성'을 기준으로 데이터를 수집하고 비교했습니다.
-            </p>
-            <p>
-                최근 트렌드는 과시적인 장식보다는 편안하고 세련된 분위기를 선호하는 방향으로 이동하고 있습니다. 또한, 강압적인 권유 없이 고객 중심의 서비스를 제공하는 곳이 재방문율이 높게 나타나고 있습니다. 010-6279-0862 로 문의하시면 현재 운영 중인 업체들의 실시간 공실 정보와 보다 구체적인 위치 안내를 받으실 수 있습니다.
-            </p>
-            <p>
-                올바른 정보에 기반한 선택은 즐거운 시간의 시작점입니다. 강서 화곡 셔츠룸 비교 데이터를 통해 가장 합리적이고 만족스러운 경험을 계획하시기 바랍니다.
-            </p>
-        </section>
+  <section class="content-section faq-section">
+    <h2 class="section-title">자주 묻는 질문</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">공덕역에서 가까운 마사지 업소는 어떻게 찾나요?</div>
+        <div class="faq-answer">지하철역 출구별로 업소 리스트를 정리한 지도를 활용하거나, 포털에서 '공덕역 마사지'로 검색한 후 거리순 정렬 기능을 사용하면 보행 거리를 쉽게 파악할 수 있습니다. 단, 지도상 거리와 실제 동선이 다를 수 있으므로 길찾기를 통해 미리 확인하는 것을 권장합니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">마사지 전후로 주의할 점이 있나요?</div>
+        <div class="faq-answer">식사 직후나 음주 후에는 마사지 받는 것을 피하는 것이 일반적이며, 고혈압이나 임신 등 특이 체질인 경우 사전에 관리사에게 정확히 알려야 합니다. 마사지 후에는 충분한 수분 섭취가 필요하며, 2~3시간 내에 샤워를 하지 않는 것이 오일 흡수와 근육 이완에 도움이 됩니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">가격 비교는 어떻게 하는 것이 효과적인가요?</div>
+        <div class="faq-answer">단순 시간당 단가보다는 포함된 서비스의 범위와 추가 옵션 비용을 함께 비교해야 합니다. 같은 가격대라도 1인실 유무, 오일 종류, 샤워 시설, 사후 관리 제공 여부에 따라 체감 가치가 달라지므로, 최소 3개 업소의 상세 메뉴를 표로 정리한 후 결정하는 방법을 추천합니다.</div>
+      </div>
+    </div>
+  </section>
 
-        <section class="content-section">
-            <h3>자주 묻는 질문 (FAQ)</h3>
-            <div class="review-card" style="margin-bottom: 16px;">
-                <h2>Q. 예약 없이 방문해도 이용이 가능한가요?</h2>
-                <p>A. 대부분 사전 예약을 권장하며, 주말 및 금요일 저녁에는 예약이 필수인 경우가 많습니다. 원활한 이용을 위해 010-6279-0862 로 미리 문의하시는 것을 추천합니다.</p>
-            </div>
-            <div class="review-card">
-                <h2>Q. 가격 정보는 어떻게 확인할 수 있나요?</h2>
-                <p>A. 각 업체마다 상이하며, 코스 구성에 따라 차이가 있습니다. 정확한 요금表和 현재 진행 중인 이벤트 정보는 전화 문의를 통해 확인하실 수 있습니다.</p>
-            </div>
-        </section>
+  <section class="content-section">
+    <h2 class="section-title">포함과 제외의 경계를 확인하는 방법</h2>
+    <p>마사지 선택에서 가장 흔한 실수는 '기본에 포함된 것'과 '별도로 요금이 발생하는 것'의 경계를 사전에 확인하지 않는 것입니다. 대부분의 업소는 홈페이지나 전화 문의를 통해 포함 항목을 명시하고 있지만, 실제 방문 시 추가 비용이 발생하는 경우가 종종 있습니다. 예를 들어 '스웨디시 60분'이라는 메뉴가 오일 마사지만을 의미하는지, 발 마사지나 스크럽이 포함되는지, 샤워 타월이 제공되는지 등을 계약 전에 반드시 확인해야 합니다.</p>
+    <p>이를 위해 업소 측에 문의할 때는 '따로 챙겨야 할 준비물이 있는지'를 질문하는 것이 간접적이지만 효과적인 방법입니다. 대부분의 업소는 필요한 준비물이나 추가 비용에 대해 상세히 안내합니다. 공덕 지역 업소의 경우 온라인 메뉴판에 '모든 세금과 붐비는 시간대 서비스 차지가 포함된 가격'이라고 명시하는 곳이 늘고 있으므로, 공식 채널의 정보를 우선 신뢰하는 것이 좋습니다.</p>
+    <p>또한 '무료 취소 가능 시간'을 업소마다 비교하는 것도 중요합니다. 일반적으로 마사지 예약은 2시간 전까지 무료 취소가 가능하지만, 일부 업소는 24시간 전까지로 제한하거나 당일 취소 시 50% 위약금을 부과하기도 합니다. 예약 변경 가능성에 따라 유연한 정책을 가진 업소를 선택하는 것이 장기적인 만족도에 긍정적입니다.</p>
+  </section>
+</main>
 
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Gangseo Compare. All rights reserved.</p>
-            <p style="margin-top: 8px;">
-                <a href="/">홈</a> | 
-                <a href="tel:010-6279-0862">연락처 010-6279-0862</a>
-            </p>
-            <p style="margin-top: 16px; font-size: 0.75rem; opacity: 0.6;">
-                본 사이트는 정보 제공을 목적으로 하며, 특정 업체를 홍보하거나 영리 활동을 하지 않습니다. 모든 콘텐츠는 편집자의 주관적인 견해가 포함될 수 있습니다.
-            </p>
-        </div>
-    </footer>
+<footer class="footer">
+  <div class="footer-content">
+    <p>공덕 마사지 노트 — 마사지 선택의 기준을 정보로 정리합니다.</p>
+    <p>본 사이트의 모든 내용은 정보 제공 목적이며, 특정 업소를 보증하거나 추천하지 않습니다.</p>
+  </div>
+</footer>
 
 </body>
 </html>
